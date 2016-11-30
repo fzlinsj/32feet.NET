@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="SelectDevice.wpa81.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DiscoverDevices.wpa81"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Margin="19,4.5,0,0" Grid.Row="0">
+            <TextBlock Text="Picker Sample" Style="{ThemeResource HeaderTextBlockStyle}"/>
+            <Button Content="Select Object-Push Target" Click="Button_Click"/>       
+        </StackPanel>
+        <StackPanel Margin="19,10,0,0" Grid.Row="1" Name="DeviceInformationPanel">
+            <TextBlock Text="{Binding Name}" Style="{ThemeResource TitleTextBlockStyle}"/>
+            <TextBlock Text="{Binding HostName.RawName}" Style="{ThemeResource BodyTextBlockStyle}"/>
+            <TextBlock Text="{Binding ClassOfDevice.MajorClass}" Style="{ThemeResource BodyTextBlockStyle}"/>
+            <TextBlock Text="{Binding ClassOfDevice.MinorClass}" Style="{ThemeResource BodyTextBlockStyle}"/>
+            <TextBlock Text="{Binding ConnectionStatus}" Style="{ThemeResource BodyTextBlockStyle}"/>
+        </StackPanel>
+    </Grid>
+</Page>

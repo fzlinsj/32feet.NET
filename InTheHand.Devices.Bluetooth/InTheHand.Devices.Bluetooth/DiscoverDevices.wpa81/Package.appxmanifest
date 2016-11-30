@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
+  <Identity Name="71c9b6c4-0cca-4e74-9102-427cfffbb8cc" Publisher="CN=Peter" Version="1.0.0.0" />
+  <mp:PhoneIdentity PhoneProductId="71c9b6c4-0cca-4e74-9102-427cfffbb8cc" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>Select Device (Sample)</DisplayName>
+    <PublisherDisplayName>In The Hand Ltd</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.1</OSMinVersion>
+    <OSMaxVersionTested>6.3.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="SelectDevice.wpa81.App">
+      <m3:VisualElements DisplayName="Select Device (Sample)" Square150x150Logo="Assets\Logo.png" Square44x44Logo="Assets\SmallLogo.png" Description="Sample showing device selection on Windows Phone 8.1" ForegroundText="light" BackgroundColor="#006666">
+        <m3:DefaultTile Square71x71Logo="Assets\Square71x71Logo.png">
+        </m3:DefaultTile>
+        <m3:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#006666" />
+      </m3:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClientServer" />
+    <m2:DeviceCapability Name="bluetooth.rfcomm">
+      <m2:Device Id="any">
+        <m2:Function Type="name:obexObjectPush" />
+        <m2:Function Type="name:obexFileTransfer" />
+        <m2:Function Type="name:serialPort" />
+        <m2:Function Type="name:genericFileTransfer" />
+        <m2:Function Type="name:phoneBookAccessPce" />
+        <m2:Function Type="name:phoneBookAccessPse" />
+      </m2:Device>
+    </m2:DeviceCapability>
+  </Capabilities>
+</Package>
