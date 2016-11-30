@@ -1,5 +1,7 @@
 #32feet.NET - Personal Area Networking for .NET
 
+This is just a backup mirror for http://32feet.codeplex.com. I created this because 32feet.NET library os very good and I don't want to lose it's releases or source code. Unfortunately I managed to only get the last version (no history) from codeplex because it does not support svnsync or git svn properly. That's sad that this library is no more maintained. However, I will accept pull requests if someone manages to do something good to this library.
+
 32feet.NET is a shared-source project to make personal area networking technologies such as Bluetooth, Infrared (IrDA) and more, easily accessible from .NET code. Supports desktop, mobile or embedded systems. 32feet.NET is free for commercial or non-commercial use. If you use the binaries you can just use the library as-is, if you make modifications to the source you need to include the 32feet.NET License.txt document and ensure the file headers are not modified/removed. The project currently consists of the following libraries:
 * Bluetooth
 * IrDA
