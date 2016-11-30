@@ -1,0 +1,102 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InTheHand.Devices.Bluetooth", "InTheHand.Phone.Bluetooth\InTheHand.Devices.Bluetooth.csproj", "{5CA71DA0-C573-443A-8052-C80570601FCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BluetoothSerialSample", "BluetoothSerialSample\BluetoothSerialSample.csproj", "{7562AF32-663F-41DA-9D47-6C7C50F52187}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{1DDBAB20-F3D7-4882-9FEF-922CB3A653F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InTheHand.Devices.Bluetooth.81", "InTheHand.Devices.Bluetooth.81\InTheHand.Devices.Bluetooth.81.csproj", "{ED2B18D4-C4E7-4935-B52E-E8B58C882013}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InTheHand.Devices.Bluetooth.Sdp", "InTheHand.Devices.Bluetooth.Sdp\InTheHand.Devices.Bluetooth.Sdp.csproj", "{E63E7D30-3E20-4604-8957-742F1844F718}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs01
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BluetoothSerialSample\\BluetoothSerialSample.csproj
+		SccProjectTopLevelParentUniqueName1 = InTheHand.Phone.Bluetooth.sln
+		SccProjectName1 = BluetoothSerialSample
+		SccLocalPath1 = BluetoothSerialSample
+		SccProjectUniqueName2 = InTheHand.Devices.Bluetooth.81\\InTheHand.Devices.Bluetooth.81.csproj
+		SccProjectName2 = InTheHand.Devices.Bluetooth.81
+		SccLocalPath2 = InTheHand.Devices.Bluetooth.81
+		SccProjectUniqueName3 = InTheHand.Phone.Bluetooth\\InTheHand.Devices.Bluetooth.csproj
+		SccProjectName3 = InTheHand.Phone.Bluetooth
+		SccLocalPath3 = InTheHand.Phone.Bluetooth
+		SccProjectUniqueName4 = InTheHand.Devices.Bluetooth.Sdp\\InTheHand.Devices.Bluetooth.Sdp.csproj
+		SccProjectName4 = InTheHand.Devices.Bluetooth.Sdp
+		SccLocalPath4 = InTheHand.Devices.Bluetooth.Sdp
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CA71DA0-C573-443A-8052-C80570601FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CA71DA0-C573-443A-8052-C80570601FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CA71DA0-C573-443A-8052-C80570601FCF}.Debug|ARM.ActiveCfg = Debug|ARM
+		{5CA71DA0-C573-443A-8052-C80570601FCF}.Debug|ARM.Build.0 = Debug|ARM
+		{5CA71DA0-C573-443A-8052-C80570601FCF}.Debug|x86.ActiveCfg = Debug|x86
+		{5CA71DA0-C573-443A-8052-C80570601FCF}.Debug|x86.Build.0 = Debug|x86
+		{5CA71DA0-C573-443A-8052-C80570601FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CA71DA0-C573-443A-8052-C80570601FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CA71DA0-C573-443A-8052-C80570601FCF}.Release|ARM.ActiveCfg = Release|ARM
+		{5CA71DA0-C573-443A-8052-C80570601FCF}.Release|ARM.Build.0 = Release|ARM
+		{5CA71DA0-C573-443A-8052-C80570601FCF}.Release|x86.ActiveCfg = Release|x86
+		{5CA71DA0-C573-443A-8052-C80570601FCF}.Release|x86.Build.0 = Release|x86
+		{7562AF32-663F-41DA-9D47-6C7C50F52187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7562AF32-663F-41DA-9D47-6C7C50F52187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7562AF32-663F-41DA-9D47-6C7C50F52187}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7562AF32-663F-41DA-9D47-6C7C50F52187}.Debug|ARM.ActiveCfg = Debug|ARM
+		{7562AF32-663F-41DA-9D47-6C7C50F52187}.Debug|ARM.Build.0 = Debug|ARM
+		{7562AF32-663F-41DA-9D47-6C7C50F52187}.Debug|ARM.Deploy.0 = Debug|ARM
+		{7562AF32-663F-41DA-9D47-6C7C50F52187}.Debug|x86.ActiveCfg = Debug|x86
+		{7562AF32-663F-41DA-9D47-6C7C50F52187}.Debug|x86.Build.0 = Debug|x86
+		{7562AF32-663F-41DA-9D47-6C7C50F52187}.Debug|x86.Deploy.0 = Debug|x86
+		{7562AF32-663F-41DA-9D47-6C7C50F52187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7562AF32-663F-41DA-9D47-6C7C50F52187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7562AF32-663F-41DA-9D47-6C7C50F52187}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7562AF32-663F-41DA-9D47-6C7C50F52187}.Release|ARM.ActiveCfg = Release|ARM
+		{7562AF32-663F-41DA-9D47-6C7C50F52187}.Release|ARM.Build.0 = Release|ARM
+		{7562AF32-663F-41DA-9D47-6C7C50F52187}.Release|ARM.Deploy.0 = Release|ARM
+		{7562AF32-663F-41DA-9D47-6C7C50F52187}.Release|x86.ActiveCfg = Release|x86
+		{7562AF32-663F-41DA-9D47-6C7C50F52187}.Release|x86.Build.0 = Release|x86
+		{7562AF32-663F-41DA-9D47-6C7C50F52187}.Release|x86.Deploy.0 = Release|x86
+		{ED2B18D4-C4E7-4935-B52E-E8B58C882013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED2B18D4-C4E7-4935-B52E-E8B58C882013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED2B18D4-C4E7-4935-B52E-E8B58C882013}.Debug|ARM.ActiveCfg = Debug|ARM
+		{ED2B18D4-C4E7-4935-B52E-E8B58C882013}.Debug|ARM.Build.0 = Debug|ARM
+		{ED2B18D4-C4E7-4935-B52E-E8B58C882013}.Debug|x86.ActiveCfg = Debug|x86
+		{ED2B18D4-C4E7-4935-B52E-E8B58C882013}.Debug|x86.Build.0 = Debug|x86
+		{ED2B18D4-C4E7-4935-B52E-E8B58C882013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED2B18D4-C4E7-4935-B52E-E8B58C882013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED2B18D4-C4E7-4935-B52E-E8B58C882013}.Release|ARM.ActiveCfg = Release|ARM
+		{ED2B18D4-C4E7-4935-B52E-E8B58C882013}.Release|ARM.Build.0 = Release|ARM
+		{ED2B18D4-C4E7-4935-B52E-E8B58C882013}.Release|x86.ActiveCfg = Release|x86
+		{ED2B18D4-C4E7-4935-B52E-E8B58C882013}.Release|x86.Build.0 = Release|x86
+		{E63E7D30-3E20-4604-8957-742F1844F718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E63E7D30-3E20-4604-8957-742F1844F718}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E63E7D30-3E20-4604-8957-742F1844F718}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{E63E7D30-3E20-4604-8957-742F1844F718}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E63E7D30-3E20-4604-8957-742F1844F718}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E63E7D30-3E20-4604-8957-742F1844F718}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E63E7D30-3E20-4604-8957-742F1844F718}.Release|ARM.ActiveCfg = Release|Any CPU
+		{E63E7D30-3E20-4604-8957-742F1844F718}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7562AF32-663F-41DA-9D47-6C7C50F52187} = {1DDBAB20-F3D7-4882-9FEF-922CB3A653F1}
+	EndGlobalSection
+EndGlobal
